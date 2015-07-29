@@ -1,0 +1,80 @@
+.clock
+{
+	padding-top: 4.5%;
+	padding-left: 4.5%;
+}
+
+.fhieght
+{
+	padding-top: 5%;
+}
+
+
+
+.or
+{
+	text-align: center;
+	color: #eea236;
+	height: 10%;
+	padding-top: 1.5%;
+	font-family: Couture;
+	/*letter-spacing: 1%; */
+
+}
+
+.bt_style
+{
+	background-color: transparent;
+	color: #282828;
+	border: 1px solid #282828;
+	margin-right: 5%;
+	letter-spacing: 0px;
+	transition:all .4s ease;
+}
+
+.bt_style:hover
+{
+	color:#eee;
+	background-color: #282828;
+
+}
+
+.buttons
+{
+	padding-left: 9.5%;
+}
+
+.bottom_pad
+{
+
+}
+
+@media all and (max-width: 1250px) { /* screen size until 1200px */
+    
+    .bottom_pad
+    {
+    	padding-bottom: 0%;
+    	height: 5%;
+    }
+
+    h1
+    {
+        font-size: 2.5em; /* 1.5x default size */    	
+    }
+
+}
+
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    
+    .bottom_pad
+    {
+    	height: 1%;
+    	padding-bottom: 0%;
+    }
+
+    h1
+    {
+        font-size: 2.5em; /* 1.5x default size */    	
+    }
+
+}

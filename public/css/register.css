@@ -1,0 +1,140 @@
+body
+{
+	font-family: Arial;
+}
+
+.block1
+{
+	height: 81.8%;
+	padding: 6%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.InformationBox
+{
+	border-radius: 5px;
+	border: 1px solid #222;
+	padding: 3%;
+	padding-bottom: 1.2%;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+.Info
+{
+	border-left: 5px solid #222;
+	padding-left: 5%;
+	height: 80%;
+}
+
+.thumbnail
+{
+	border:1px solid #222;
+	height: 80%;	
+}
+
+hr
+{
+	border:1px solid #222;
+	margin-top: 0%;
+	margin-bottom: 5%;
+	margin-left: -5%;
+}
+
+.Name
+{
+	font-size: 300%;
+	padding-bottom: 2%;
+}
+
+.St_no
+{
+	padding-bottom: 5%;
+	padding-top: 3%;
+	font-size:200%; 
+}
+
+.Branch
+{
+	font-size: 180%;
+	padding-bottom: 7%;
+}
+
+.Text
+{
+	font-size: 150%;
+	padding-bottom: 6.4%;
+	color: #aaa;
+}
+
+.register_button
+{
+	float: right;
+	transition:all 0.4s ease;
+	border-radius: 3px;
+	border:#f0ad4e;
+	color: #222;
+	background-color: transparent;
+	text-decoration: underline;
+	font-family: Sansation;
+	float: right;
+	margin-right: -4.8%;
+}
+.register_button:hover
+{
+	text-decoration: none;
+}
+
+/*making Text -responsive*/
+
+
+@media all and (max-width: 1250px) { /* screen size until 1200px */
+    body {
+        font-size: 0.90em; /* 1.5x default size */
+    }
+
+    .Text
+    {
+    	padding-bottom: 0%;
+    }
+
+    h1
+    {
+        font-size: 2.5em; /* 1.5x default size */    	
+    }
+
+}
+
+@media all and (max-width: 1200px) { /* screen size until 1200px */
+    body {
+        font-size: 0.87em; /* 1.5x default size */
+    }
+
+    .Text
+    {
+    	padding-bottom: 5%;
+    }
+
+    h1
+    {
+        font-size: 2.5em; /* 1.5x default size */    	
+    }
+
+}
+
+
+@media all and (max-width: 1100px) { /* screen size until 1200px */
+    body {
+        font-size: 0.89em; /* 1.5x default size */
+    }
+.Text
+    {
+    	padding-bottom: 6.3%;
+    }
+}
+
+
